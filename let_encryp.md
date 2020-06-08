@@ -1,4 +1,4 @@
-(How To Secure Nginx with Let's Encrypt on Ubuntu)[https://www.digitalocean.com/community/tutorials/how-to-secure-nginx-with-let-s-encrypt-on-ubuntu-20-04]
+[How To Secure Nginx with Let's Encrypt on Ubuntu](https://www.digitalocean.com/community/tutorials/how-to-secure-nginx-with-let-s-encrypt-on-ubuntu-20-04)
 
 [cerboot](https://certbot.eff.org/lets-encrypt/ubuntuxenial-nginx)
 

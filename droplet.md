@@ -210,6 +210,13 @@ postgres=# create collation "tr_TR.UTF-8" (LOCALE="tr_TR.UTF-8");
 
 ```
 
-# PostgREST Kurulumu
-
 # .Net Core Kurulumu
+
+wget https://packages.microsoft.com/config/ubuntu/18.04/packages-microsoft-prod.deb -O packages-microsoft-prod.deb
+sudo dpkg -i packages-microsoft-prod.deb
+
+sudo add-apt-repository universe
+sudo apt-get update
+sudo apt-get install apt-transport-https
+sudo apt-get update
+sudo apt-get install aspnetcore-runtime-3.1

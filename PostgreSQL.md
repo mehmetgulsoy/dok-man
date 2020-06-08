@@ -91,3 +91,8 @@ ORDER BY 1;
 \du __kullanıcı__       : Eğer mevcutsa kullanıcıyı listeler
 
 ```
+
+GRANT ALL PRIVILEGES ON DATABASE "database_name" to my_username;
+
+böyle daha güvenli
+\password user
