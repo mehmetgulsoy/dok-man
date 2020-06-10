@@ -66,6 +66,7 @@ $ sudo systemctl reload sshd (konfigurasyon devreye girmesi için)
 
 # Nginx Kurulumu
 
+cd .
 Kurulum:
 
 ```sh

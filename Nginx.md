@@ -14,7 +14,7 @@ example.com devreye almak.
 
 ```sh
 $ sudo mkdir -p /var/www/example.com/html (gerekli dizinleri oluşturur)
-$ sudo chown -R www-data:www-data /var/www/example.com/html (dizinlerin sahibi Nginx olarak atanır.)
+$ sudo chown -R $USER:$USER /var/www/example.com/html ( Nginx e (www-data) özel yetki vermek gerekebilir. )
 $ sudo chmod -R 755 /var/www (Kullanıcılara yetki verilir)
 ```
 
@@ -76,8 +76,6 @@ Servis reload edilir.
 ```sh
 $ sudo systemctl reload nginx
 ```
-
-[Server Block](https://www.digitalocean.com/community/tutorials/understanding-nginx-server-and-location-block-selection-algorithms)
 
 default server
 
@@ -168,3 +166,11 @@ http {
 access_log off;
 
 [performan linki](https://gist.github.com/denji/8359866)
+
+[http2](https://www.digitalocean.com/community/tutorials/how-to-set-up-nginx-with-http-2-support-on-ubuntu-18-04)
+
+[Optimize Nginx](https://www.digitalocean.com/community/tutorials/how-to-optimize-nginx-configuration)
+
+[Server Block](https://www.digitalocean.com/community/tutorials/understanding-nginx-server-and-location-block-selection-algorithms)
+
+[Microsoft Asp Core Nginx](https://docs.microsoft.com/tr-tr/aspnet/core/host-and-deploy/linux-nginx?view=aspnetcore-3.1)
